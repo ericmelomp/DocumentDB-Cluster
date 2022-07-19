@@ -1,4 +1,4 @@
-resource "aws_docdb_cluster_instance" "db_instance" {
+resource "aws_docdb_cluster" "db_instance" {
   for_each = var.document_db
 
   cluster_identifier = each.value["cluster_identifier"]
