@@ -10,7 +10,7 @@ variable "document_db" {
 
   default = {
     "document_db_test" = {
-      cluster_identifier = "doc-db-test"
+      cluster_identifier = "docdb-cluster-demo"
       engine_version     = "4.0"
       master_password    = "Pa55w.rd"
       master_username    = "root"
